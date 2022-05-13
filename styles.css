@@ -36,9 +36,13 @@ section{
     padding-right: 15px;
 }
 section img{
-    width: 385px;
-    height: auto;
-    padding: 20px;
+    width: 320px;
+    height: 320px;
+    padding: 20px;    
+    Border-radius: 10%
+}
+.home img:hover{
+    transform: scale(1.10);
 }
 .servicios ul{
     font-weight: bold;
