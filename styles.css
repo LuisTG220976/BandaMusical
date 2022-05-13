@@ -90,3 +90,26 @@ header{
     text-align: justify;
     line-height: 30px;
 }
+.contacto form input{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.contacto form textarea{
+    height: 214px; 
+    width: 100%; 
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.contacto form button{
+    width: 195px;
+    height:  73px;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    cursor: pointer;
+ }
+
+ 
