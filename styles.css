@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+header {
+    width: 100%;
+    background-color:white; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+header nav {
+    padding-top: 90px;
+    padding-right: 90px;
+    padding-right: 90px;
+   }
+header a{
+    color:blue;
+    text-decoration: none;
+    padding-left: 20px;
+}
+header a:hover{
+    color:red;
+}
+header h1{
+    padding-left: 30px;
+    color: blue;
+}
+section{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section img{
+    width: 385px;
+    height: auto;
+    padding: 20px;
+}
+.servicios ul{
+    font-weight: bold;
+    line-height: 44px;
+}
+.servicios li{
+    color: #FF0000;
+}
+.servicios li+li{
+    color: #3B06D2
+    ;
+}
+.servicios li+li+li{
+    color: orange    ;
+}
+
+.servicios li+li+li+li{
+    color: rgb(39, 151, 196);
+}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    height: 88px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+form textarea{
+    height: 214px; 
+    width: 100%; 
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+form button{
+    width: 195px;
+    height:  73px;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    cursor: pointer;
+}
