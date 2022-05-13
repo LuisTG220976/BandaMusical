@@ -6,85 +6,70 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
+  
 }
-header {
-    width: 100%;
-    background-color:white; 
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.navbar{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    height: 100px;
 }
-header nav {
-    padding-top: 90px;
-    padding-right: 90px;
-    padding-right: 90px;
-   }
-header a{
-    color:blue;
-    text-decoration: none;
-    padding-left: 20px;
+header{
+    background-color: white;
 }
-header a:hover{
-    color:red;
+.navbar a{
+text-decoration: none;
+margin-left: 30px;
+color: black;
 }
-header h1{
-    padding-left: 30px;
+.navbar a:hover{
     color: blue;
-}
-section{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-section img{
-    width: 320px;
-    height: 320px;
-    padding: 20px;    
-    Border-radius: 10%
-}
-.home img:hover{
-    transform: scale(1.10);
-}
-.servicios ul{
-    font-weight: bold;
-    line-height: 44px;
-}
-.servicios li{
-    color: #FF0000;
-}
-.servicios li+li{
-    color: #3B06D2
-    ;
-}
-.servicios li+li+li{
-    color: orange    ;
+    font-size: 30px;
 }
 
-.servicios li+li+li+li{
-    color: rgb(39, 151, 196);
+.home h1{
+margin-top: 30px;
+text-align: center;
+letter-spacing: 30px;
 }
-form input{
-    width: 100%;
-    margin-bottom: 10px;
+.home p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
 }
-form input{
-    height: 88px;
-    margin-bottom: 20px;
-    background-color: white;
-    border: 1px solid black;
+.home div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-form textarea{
-    height: 214px; 
-    width: 100%; 
-    margin-bottom: 20px;
-    background-color: white;
-    border: 1px solid black;
+.home div img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
-
-form button{
-    width: 195px;
-    height:  73px;
-    background-color: white;
-    border: 1px solid green;
-    color: green;
-    cursor: pointer;
+.home div img:hover{
+transform: scale(1.20);
+}
+.servicios h1{
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 30px;
+}
+.servicios p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.servicios div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.servicios img{
+    width: 250px;
+    
 }
